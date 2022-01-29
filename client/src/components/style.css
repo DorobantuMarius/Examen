@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(173, 221, 230);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input, select, textarea {
+	padding: 10px 15px;
+	margin: 8px 0;
+	display:flexbox;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.select select {
+	width: 90%
+}
+input[type=button], input[type=submit], input[type=reset] {
+	width: 6em;
+	background-color:rgb(68, 92, 170);
+	color: #fff;
+	padding: 2px 0px;
+	margin: 3px 3px;
+    border: #aa4;
+	font-size:medium;
+}
+
+
